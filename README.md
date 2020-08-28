@@ -10,7 +10,7 @@ Experiments over images with 8 gradations of gray (only B&W).
 ## mixture_of_experts:
 Proposed mixture of trained CNNs for the restoration of images with 256 gradations of gray (only B&W).
 
-### Degradation of the images used:
+### Model of degradation used for the images (Gaussian Blur):
 The degradation of the images was simulated by a gaussian point spread function (that have sigma and the dimension of the filter as parameters -- with higher values for sigma and broader dimensions for the filter, worse the degradation).
 
 ### Measure of similarity between images (SSIM Index):
