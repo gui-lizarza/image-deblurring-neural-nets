@@ -17,3 +17,5 @@ The degradation of the images was simulated by a gaussian point spread function 
 The SSIM index was used to measure the similarity between the restoratios achieved and the original images without degradation. The SSIM index is contained in the interval [-1, 1] and returns 1 when both images are identical. This index takes in account characteriscs from the human visual system (see https://ece.uwaterloo.ca/~z70wang/publications/ssim.pdf).
 
 #### Tensorflow version: 2.0.0
+
+##### These notebooks were made for an undergraduate research project concerning "Image restoration with machine learning techniques". The file RelatorioFinal.pdf is the report (in portuguese) of such project. This research was made with support from Universidade de São Paulo (USP) and Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP).
