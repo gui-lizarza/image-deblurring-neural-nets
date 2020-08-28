@@ -10,4 +10,5 @@ Experiments over images with 8 gradations of gray (only B&W).
 ## mixture_of_experts:
 Proposed mixture of trained CNNs for the restoration of images with 256 gradations of gray.
 
+## Degradation of the images used:
 The degradation of the images was simulated by a gaussian point spread function (that have sigma and the dimension of the filter as parameters).
