@@ -1,5 +1,5 @@
 # image-deblurring-neural-nets
-Several architectures of neural networks used for image deblurring (more especifically CNNs, GANs and a proposed mixture of experts).
+Several architectures of neural networks used for image deblurring (more especifically residual CNNs, GANs and a proposed mixture of experts).
 
 ## 256colors: 
 Experiments over images with 256 gradations of color (B&W or RGB).
