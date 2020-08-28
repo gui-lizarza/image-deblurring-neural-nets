@@ -11,10 +11,10 @@ Experiments over images presenting only 8 different gradations of gray (only B&W
 Proposed mixture of trained CNNs for the restoration of images presenting up to 256 different gradations of gray (only B&W).
 
 #### Model of degradation used for the images (Gaussian Blur):
-The degradation of the images was simulated by a gaussian point spread function (that have sigma and the dimension of the filter as parameters - with higher values for sigma and broader dimensions for the filter, worse the degradation).
+The degradation of the images is simulated by a gaussian point spread function (that have the value of standard deviation (sigma) and the dimension of the filter as parameters - with higher values for sigma and broader dimensions for the filter, worse the degradation).
 
 #### Measure of similarity between images (SSIM Index):
-The SSIM index was used to measure the similarity between the restoratios achieved and the original images without degradation. The SSIM index is contained in the interval [-1, 1] and returns 1 when both images are identical. This index takes in account characteriscs from the human visual system (see https://ece.uwaterloo.ca/~z70wang/publications/ssim.pdf).
+The SSIM index is used to measure the similarity between the restorations achieved and the original images without degradation. The SSIM index is contained in the interval [-1, 1] and returns 1 when both images are identical. This index takes in account characteriscs from the human visual system (see https://ece.uwaterloo.ca/~z70wang/publications/ssim.pdf). At this repository, it is proposed a loss function for neural networks based on the SSIM index.
 
 #### TensorFlow version: 2.0.0
 
