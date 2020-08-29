@@ -18,4 +18,4 @@ The SSIM index is used to measure the similarity between the restorations achiev
 
 #### TensorFlow version: 2.0.0
 
-##### These notebooks were made for an undergraduate research project concerning "Image restoration with machine learning techniques". The file RelatorioFinal.pdf is the report (in portuguese) of such project. This research was made by Guilherme A. Lizarzaburu (guilherme.a.lizarzaburu@gmail.com) with support from Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP) and Universidade de São Paulo (USP).
+##### These notebooks were made for an undergraduate research project concerning "Image restoration with machine learning techniques". The research was done by Guilherme A. Lizarzaburu (guilherme.a.lizarzaburu@gmail.com) with support from Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP) and Universidade de São Paulo (USP).
