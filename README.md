@@ -2,10 +2,10 @@
 Several architectures of neural networks used for image deblurring (more especifically: residual CNNs, GANs and a proposed mixture of experts). Implementation with TensorFlow and Keras.
 
 ## 256colors: 
-Experiments over images presenting up to 256 different gradations of color (B&W or RGB).
+Experiments with images presenting up to 256 different gradations of color (B&W or RGB).
 
 ## 8colors: 
-Experiments over images presenting only 8 different gradations of gray (only B&W).
+Experiments with images presenting only 8 different gradations of gray (only B&W).
 
 ## mixture_of_experts:
 Proposed mixture of trained CNNs for the restoration of images presenting up to 256 different gradations of gray (only B&W).
