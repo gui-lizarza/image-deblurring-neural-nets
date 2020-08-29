@@ -14,7 +14,7 @@ Proposed mixture of trained CNNs for the restoration of images presenting up to 
 The degradation of the images is simulated by a gaussian point spread function (PSF), that has as parameters the value of standard deviation (sigma) and the size of filter (with higher values for sigma and broader sizes of filter, worse the degradation).
 
 #### Measure of similarity between images (SSIM Index):
-The SSIM index is used to measure the similarity between the restorations achieved and the original images without degradation. The SSIM index is contained in the interval [-1, 1] and returns 1 when both images are identical. This index takes in account characteriscs from the human visual system (see https://ece.uwaterloo.ca/~z70wang/publications/ssim.pdf). At this repository, it is proposed a loss function for neural networks based on the SSIM index.
+The SSIM index is used to measure the similarity between the restorations achieved and the original images without degradation. The SSIM index is contained in the interval [-1, 1] and returns 1 when both images are identical. This index takes in account characteristics from the human visual system (see https://ece.uwaterloo.ca/~z70wang/publications/ssim.pdf). At this repository, it is proposed a loss function for neural networks based on the SSIM index.
 
 #### TensorFlow version: 2.0.0
 
