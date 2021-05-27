@@ -1,19 +1,23 @@
 # image-deblurring-neural-nets
-Several architectures of neural networks used for image deblurring (more especifically: residual CNNs, GANs and a proposed mixture of experts). Implementation with TensorFlow and Keras.
+Several architectures of neural networks used for image deblurring (more especifically: MLPs, residual CNNs, GANs and a proposed mixture of experts). Implementation with TensorFlow and Keras.
 
-## 256colors: 
-Experiments with images presenting up to 256 different gradations of color (B&W or RGB).
+## Description for each folder of the project:
 
-## 8colors: 
-Experiments with images presenting only 8 different gradations of gray (only B&W).
+### 256colors: 
+Experiments (residual CNNs and GANs) with images presenting up to 256 different gradations of color (B&W or RGB).
 
-## mixture_of_experts:
-Proposed mixture of trained CNNs for the restoration of images presenting up to 256 different gradations of gray (only B&W).
+### 8colors: 
+Experiments (MLPs and residual CNNs) with images presenting only 8 different gradations of gray (only B&W).
 
-#### Model of degradation used for the images (Gaussian Blur):
+### mixture_of_experts:
+Proposed ensemble of trained CNNs for the restoration of images presenting up to 256 different gradations of gray (only B&W).
+
+## Project details:
+
+### Degradation model used for the images (Gaussian Blur):
 The degradation of the images is simulated by a gaussian point spread function (PSF), that has as parameters the value of standard deviation (sigma) and the size of its filter (with higher values for sigma and broader filter sizes, worse the degradation).
 
-#### Measure of similarity between images (SSIM Index):
+### Measure of similarity between images (SSIM Index):
 The SSIM index is used to measure the similarity between the deblurred images and the original images without degradation. The SSIM index is contained in the interval [-1, 1] and returns 1 when both images are identical. This index takes in account characteristics from the human visual system (see https://ece.uwaterloo.ca/~z70wang/publications/ssim.pdf). At this repository, it is proposed a loss function for neural networks based on the SSIM index.
 
 #### TensorFlow version: 2.0.0
