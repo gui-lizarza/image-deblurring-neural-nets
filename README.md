@@ -1,5 +1,5 @@
 # image-deblurring-neural-nets
-Several architectures of neural networks used for image deblurring (more especifically: MLPs, residual CNNs, GANs and a proposed mixture of experts). Implementation with TensorFlow and Keras.
+In this repository, several architectures of neural networks used for image deblurring (more especifically: MLPs, residual CNNs, GANs and a proposed mixture of experts) are presented. The implementation of said neural networks is done with TensorFlow and Keras.
 
 ## Description for each folder of the project:
 
@@ -15,7 +15,7 @@ Proposed ensemble of trained CNNs for the restoration of images presenting up to
 ## Project details:
 
 ### Degradation model used for the images (Gaussian Blur):
-The degradation of the images is simulated by a gaussian point spread function (PSF), that has as parameters the value of standard deviation (sigma) and the size of its filter (with higher values for sigma and broader filter sizes, worse the degradation).
+Image degradations are simulated by a gaussian point spread function (PSF), which can be seen as an impulse response of an imaging system. The 2D filter corresponding to the impulse response depends on parameters such as the standard deviation (sigma) and the size of the filter (with higher values for sigma and broader filter sizes, worse the degradation).
 
 ### Measure of similarity between images (SSIM Index):
 The SSIM index is used to measure the similarity between the deblurred images and the original images without degradation. The SSIM index is contained in the interval [-1, 1] and returns 1 when both images are identical. This index takes in account characteristics from the human visual system (see https://ece.uwaterloo.ca/~z70wang/publications/ssim.pdf). At this repository, it is proposed a loss function for neural networks based on the SSIM index.
